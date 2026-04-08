@@ -23,10 +23,11 @@ requirements:
   run:
     - python >={{ python_min }}
     - cmap >=0.3
-    - numpy >=1.22
-    - psygnal >=0.10
-    - pydantic >=2.9
-    - typing_extensions
+    - numpy >=1.26
+    - psygnal >=0.12
+    - pydantic >=2.10
+    - typing_extensions >=4.10
+    - ihist >=0.1.3
 
 test:
   imports:
